@@ -9,7 +9,6 @@ test.describe('Axate', () => {
     
 test('The Test', async ({ page }) => {
     await userRegistration.navigte();
-    page.pause()
     await userRegistration.getAPasss();
 })
 
